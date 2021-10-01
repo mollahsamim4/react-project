@@ -8,13 +8,13 @@ import "../node_modules/bootstrap/dist/js/bootstrap.min"
 import { BrowserRouter as Router } from "react-router-dom"
 import { ProductProvider } from "./components/context"
 ReactDOM.render(
-  <React.StrictMode>
-    <ProductProvider>
-      <Router>
-        <App />
-      </Router>
-    </ProductProvider>
-  </React.StrictMode>,
+
+  <ProductProvider>
+    <Router>
+      <App />
+    </Router>
+  </ProductProvider>,
+
   document.getElementById('root')
 );
 
