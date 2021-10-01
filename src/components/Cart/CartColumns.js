@@ -7,7 +7,7 @@ import CartList from './CartList';
 import Paypal from './Paypal';
 const CartColumns = (props) => {
     const { clearCart, cartSubTotal, cartTax, cartTotal } = ProductConsumer()
-    console.log(process.env)
+
     return (
         <CartContainer className="row">
             <div className="col-11 col-lg-10 mx-auto">
